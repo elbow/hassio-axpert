@@ -6,9 +6,9 @@
     "startup": "application",
     "boot": "auto",
     "privileged": ["SYS_RAWIO"],
-    "devices": ["/dev/hidraw0:/dev/hidraw0:rwm"],
+    "devices": ["/dev/hidraw2:/dev/hidraw2:rwm"],
     "options": {
-      "mqtt_server": "hassio"
+      "mqtt_server": "10.64.16.1"
     },
     "schema": {
       "mqtt_server": "str"
